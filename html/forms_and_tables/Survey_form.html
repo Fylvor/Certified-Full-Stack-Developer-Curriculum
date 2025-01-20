@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+  </head>
+
+  <body>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description"> Thank you for taking the time to help us improve the platform </p>
+    <form id="survey-form" >
+      <label for="name" id="name-label">name: </label>
+      <input placeholder= "Achraf Atif"required id="name" type="text" required>
+       <label for="email" id="email-label">email: </label>
+       <input placeholder="example@mail.com" required id="email" type="email" required/>
+       <label for="number" id="number-label"> age :</label>
+       <input placeholder="25" required id="number" type="number" required min="18" max="100"/>
+        <select id="dropdown">
+          <option>junior fullstack</option>
+          <option>fullstack</option>
+          <option>senior fullstack</option>
+        </select>
+        <p>Is web dev dead?<p/>
+        <lable for="dead">Dead</label>
+        <input type="radio" id="dead" name="opinion" value="dead">
+        <lable for="not-dead">Not Dead</label>
+        <input type="radio" id="not-dead" name="opinion" value="not-dead">
+        <p>what's the fields that are gonna be dead the most<p/>
+        <lable for="dev">web dev</label>
+        <input type="checkbox" id="dev" name="opinion" value="dev">
+        <lable for="not-dead">software dev</label>
+        <input type="checkbox" id="software" name="opinion" value="software">
+        <lable for="not-dead">networking</label>
+        <input type="checkbox" id="networking" name="opinion" value="networking">
+        <p>for additional comments:</p>
+      <textarea>...</textarea>
+
+      <button id="submit">Submit</button>
+      
+
+    </form>
+  </body>
+</html>
